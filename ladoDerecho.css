@@ -1,0 +1,48 @@
+:root {
+    --main-bg-color: rgb(250, 143, 2);
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: var(--main-bg-color);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.right_side .exp .percent {
+    position: relative;
+    width: 85%;
+    height: 8px;
+    background-color: rgb(170, 169, 169);
+    display: block;
+    border-radius: 40px;
+    margin-top: 8px;
+}
+
+.right_side .exp .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--main-bg-color);
+    border-radius: 40px;
+}
+
+.unityIcon {
+    width: 30px;
+    height: 30px;
+}

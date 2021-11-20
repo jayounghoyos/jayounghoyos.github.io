@@ -1,0 +1,96 @@
+:root {
+    --border_bottom-color: #804000;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body {
+    background: #804000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.brownLine {
+    border-bottom: 2px solid var(--border_bottom-color);
+    width: 100%;
+}
+
+.right_side .brownLine {
+    border-bottom: 2px solid var(--main-bg-color);
+    width: 50%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 20px 25px black;
+}
+
+.container .left_side {
+    position: relative;
+    background-color: var(--main-bg-color);
+    padding: 40px;
+}
+
+.imgBx .profile-img {
+    width: 220px;
+    height: 220px;
+    border: 6px solid white;
+    border-radius: 100%;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}
+
+.container .right_side {
+    position: relative;
+    background-color: solid #C0C0C0;
+    padding: 40px;
+}
+
+.profileText h1 {
+    color: rgb(12, 12, 12);
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--border_bottom-color);
+}
+
+.left_side .lenguages .percent {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: aliceblue;
+    display: block;
+    border-radius: 40px;
+    margin-top: 8px;
+}
+
+.left_side .lenguages .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aqua;
+    border-radius: 40px;
+}
+
+.profileText h1 {
+    font-size: 17px;
+    color: white;
+}
